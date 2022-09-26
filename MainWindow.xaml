@@ -1,0 +1,34 @@
+﻿<Window x:Class="WPF_Rassokhin_PR2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Rassokhin_PR2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Стереть" Click="nn" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Margin="311,138,0,0"/>
+        
+        <Button Content="+" Click="plys" HorizontalAlignment="Left" Margin="475,138,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="C" Click="kc" HorizontalAlignment="Left" Margin="232,138,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="8" Click="k8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Margin="311,178,0,0"/>
+        <Button Content="9" Click="k9" HorizontalAlignment="Left" Margin="392,178,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="-" Click="minys" HorizontalAlignment="Left" Margin="475,178,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="7" Click="k7" HorizontalAlignment="Left" Margin="232,178,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="5" Click="k5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Margin="311,215,0,0"/>
+        <Button Content="6" Click="k6" HorizontalAlignment="Left" Margin="392,215,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="*" Click="ym" HorizontalAlignment="Left" Margin="475,215,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="4" Click="k4" HorizontalAlignment="Left" Margin="232,215,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="2" Click="k2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Margin="311,252,0,0"/>
+        <Button Content="3" Click="k3" HorizontalAlignment="Left" Margin="392,252,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="/" Click="dele" HorizontalAlignment="Left" Margin="475,252,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="1" Click="k1" HorizontalAlignment="Left" Margin="232,252,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="0" Click="k0" HorizontalAlignment="Left" Margin="232,292,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Content="," Click="zap" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Margin="311,292,0,0"/>
+        <Button Content="=" Click="povno" HorizontalAlignment="Left" Margin="392,292,0,0" VerticalAlignment="Top" Width="147"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="307" Margin="232,70,0,0"/>
+        <TextBox x:Name="label1" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="307" Margin="232,10,0,0"/>
+        <Button Content="+/-" HorizontalAlignment="Left" Margin="392,138,0,0" VerticalAlignment="Top" Width="64"/>
+
+    </Grid>
+</Window>
